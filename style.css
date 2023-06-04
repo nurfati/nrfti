@@ -1,0 +1,140 @@
+air {
+  color: black;
+  font-size: 40px;
+font-family: Times new roman;
+}
+
+body {
+  background-color: BDCDD6;
+}
+
+iq{
+  color: #FDFDBD;
+  font-size: 150px;
+font-family: Monotype Corsiva;
+}
+
+mal{
+  color: #F5EDCE;
+  font-size: 40px;
+font-family: Ribbon;
+}
+
+fa{
+  color: #000000;
+  font-size: 40px;
+font-family: Helvetica;
+}
+
+ti{
+  color: #967E76;
+  font-size: 50px;
+font-family: Constantia;
+}
+
+table, th, td {
+  border: 2px solid;
+  color: #000000;
+
+}
+
+table {
+  width: 60%;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #2B3467;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #BAD7E9;
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+ha{
+  color: #025464;
+  font-size: 40px;
+font-family:
+Calibri;
+}
+
+nin{
+  color: #884A39;
+  font-size: 40px;
+font-family:
+Calibri;
+}
+
+cimg{
+  box-sizing: border-box;
+  style: center;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+cen {
+  display: block;
+  margin-left: 7%;
+  margin-right: 50%;
+  width: 90%;
+}
+
+sha{
+  color: #9E4784;
+  font-size: 40px;
+font-family:
+Calibri;
+}
+
+mi{
+  color: #FFFDDE;
+  font-size: 35px;
+font-family:
+Lucida Sans Unicode;
+
+}
+
+div.scroll-container {
+  background-color: #D8C4B6;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
